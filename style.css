@@ -1,0 +1,10 @@
+.circle {
+  border-radius: 50%;
+  position: absolute;
+}
+
+#viewbox {
+  border: 2px solid black;
+  position: relative;
+  margin: 0 auto;
+}
