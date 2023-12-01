@@ -34,10 +34,10 @@ class Ball {
    * check collision with the wall
    */
   checkWallCollision() {
-    if (this.x + this.radius * 2 >= VIEWPORT_WIDTH || this.x <= 0) {
+    if (this.x + this.radius >= VIEWPORT_WIDTH || this.x <= 0) {
       this.dx = -this.dx;
     }
-    if (this.y + this.radius * 2 >= VIEWPORT_HEIGHT || this.y <= 0) {
+    if (this.y + this.radius >= VIEWPORT_HEIGHT || this.y <= 0) {
       this.dy = -this.dy;
     }
   }
